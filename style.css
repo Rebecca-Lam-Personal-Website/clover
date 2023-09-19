@@ -1,7 +1,9 @@
+
 body {
-    padding: 0;
     margin: 0;
+    background-color: #f1d8b2;   
 }
+
 nav {
     position: fixed;
     z-index: 10;
@@ -10,8 +12,8 @@ nav {
     top: 0;
     font-family: 'Cormorant', serif;
     padding: 0 5%;
-    height: 80px;
-    background-color: #102C57;
+    height: 70px;
+    background-color: #d4a279;
 }
 nav .logo {
     float: left;
@@ -20,7 +22,7 @@ nav .logo {
     display: flex;
     align-items: center;
     font-size: 38px;
-    color: #fff;
+    color: #F8F0E5;
 }
 nav .links {
     float: right;
@@ -40,6 +42,16 @@ nav .links a {
     padding: 1em;
     font-size: 26px;
     font-weight: bold;
-    color: #fff;
+    color: #F8F0E5;
     text-decoration: none;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.aboutme {
+    grid-column-start: 2;
+    grid-row-start: 5
 }

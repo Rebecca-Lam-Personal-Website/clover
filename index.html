@@ -4,18 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-image: url(daisybeige.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+      }
+    </style>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav>
-      <div class="logo">REBECCA LAM</div>
+      <div class="logo">REBECCA</div>
       <ul class="links">
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="portfolio.html">PORTFOLIO</a></li>
       </ul>
     </nav>
-    <a class="=cta" href="#"><button>Contact</button></a>
+    <!-- Full background image for mainpage -->
+    <div class="background-image"></div>
+    <div class="intro">
+      <section class="aboutme">
+        <h2>Hi My name is Rebecca</h2>
+        <p>I am an aspiring web developer.</p>
+      </section>
+    </div>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            <h2 class="hero_title">Hi, it's me</h2>
+            <p class="hero_desc">
+              I am a professional freelancer in New York City
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
